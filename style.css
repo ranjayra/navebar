@@ -15,15 +15,14 @@
     justify-content: space-between;
 }
 
-h3 {
+.nav-bar img {
     position: relative;
-    right: 50px;
-    color: #fff;
-    margin-left: 80px;
-    font-size: 22px;
-    border: 1px solid #fff;
+    left: 30px;
+    height: 60px;
+    width: 100px;
     padding: 4px 8px;
-    border-radius: 9px;
+    border: 2px solid rgb(92, 0, 128);
+    border-radius: 5px;
 }
 
 body {
@@ -72,4 +71,9 @@ ul li:hover {
         right: 0px;
         text-align: center;
     }
+}
+
+img {
+    position: relative;
+    left: 540px;
 }
